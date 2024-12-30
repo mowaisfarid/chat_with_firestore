@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "436709926748",
+    "project_id": "chatwithfirestore-6c448",
+    "storage_bucket": "chatwithfirestore-6c448.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436709926748:android:8172bde317df02f4c20399",
+        "android_client_info": {
+          "package_name": "com.placeme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3dPW32KG_CGyJuQ5p1O5t_qkQc4v0AdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
