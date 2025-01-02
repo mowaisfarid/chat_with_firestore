@@ -1,3 +1,3 @@
 // screens
 
-import Signup from './screens/signup';
+// import Signup from './screens/signup';
