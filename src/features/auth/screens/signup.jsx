@@ -1,12 +1,11 @@
 import React, {useEffect} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View, ToastAndroid} from 'react-native';
 
 // Import Firestore correctly
 import firestore from '@react-native-firebase/firestore';
 
 const Signup = () => {
   const addUser = async () => {
-    console.log('Attempting to add user...');
     try {
       // Add a user to the Firestore collection
       await firestore().collection('Users').doc('ABC').set({
@@ -14,6 +13,11 @@ const Signup = () => {
         age: 30,
       });
       console.log('User added successfully!');
+      ToastAndroid.showWithGravity(
+        'User added successfully!',
+        ToastAndroid.SHORT,
+        ToastAndroid.BOTTOM,
+      );
     } catch (error) {
       console.error('Error adding user:', error);
     }
