@@ -5,16 +5,8 @@ import {View, Text} from 'react-native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 // screens imports
-// import Signup from '../features/auth/screens/signup';
-import Signup from '@src/features/auth/screens/signup';
-
-const Home = () => {
-  return (
-    <View>
-      <Text>Home Screen</Text>
-    </View>
-  );
-};
+import {Signup} from '@src/features/auth';
+import {Dashobard} from '@src/features/dashboard';
 
 const Stack = createNativeStackNavigator();
 
@@ -22,7 +14,7 @@ const RootContainer = () => {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Signup" component={Signup} />
-      <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen name="Dashobard" component={Dashobard} />
     </Stack.Navigator>
   );
 };

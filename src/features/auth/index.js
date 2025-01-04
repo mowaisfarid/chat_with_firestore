@@ -1,3 +1,2 @@
 // screens
-
-// import Signup from './screens/signup';
+export {default as Signup} from './screens/signup';
