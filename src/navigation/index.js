@@ -1,6 +1,7 @@
-// react & react-native imports
+// react imports
 import React from 'react';
 
+// external library imports
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 // screens imports
