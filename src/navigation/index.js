@@ -5,7 +5,8 @@ import {View, Text} from 'react-native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 // screens imports
-import Signup from '../features/auth/screens/signup';
+// import Signup from '../features/auth/screens/signup';
+import Signup from '@src/features/auth/screens/signup';
 
 const Home = () => {
   return (
