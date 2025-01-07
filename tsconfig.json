@@ -15,7 +15,8 @@
       "@assets/*": ["src/assets/*"],
       "@components/*": ["src/components/*"],
       "@redux/*": ["src/redux"],
-      "@utils/*": ["src/utils"]
+      "@utils/*": ["src/utils"],
+      "@common/*": ["src/common/*"]
     },
     "noEmit": true,
     "resolveJsonModule": true,
